@@ -97,10 +97,10 @@ footer {
     width: 100%;
     height: auto;
     line-height: 340px;
-    background: url("starter_files/images/donate.jpg"), #A6A9F0; 
+    background: url("starter_files/images/donate.jpg"), no-repeat, #A6A9F0; 
     background-blend-mode: multiply;
     display: flex;
-    
+    background-size:cover;
 }
 .volunteer {
     display: flex;
@@ -111,8 +111,7 @@ footer {
     line-height: 340px;
     background: url("starter_files/images/volunteer.jpg"), #A6A9F0; 
     background-blend-mode: multiply;
-    border: solid;
-    border-color: black;
+    background-size:cover;
 }
 .location {
     display: flex;
@@ -123,4 +122,5 @@ footer {
     line-height: 340px;
     background: url("starter_files/images/location.png"), #A6A9F0; 
     background-blend-mode: multiply;
+    background-size:cover;
 }
